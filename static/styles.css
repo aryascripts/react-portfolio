@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-family: 'Helvetica', sans-serif;
+  font-size: 22px;
+  font-weight: 700;
+  color: #525252;
+  padding: 20px 0 10px 0;
+}
+
+body {
+  background-color: #f6f6f6;
+}
+
+header {
+  width: 100vw;
+  height: 40vh;
+  background-color: #2d4059;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-left: 50px;
+}
+
+nav {
+  height: 55px;
+  width: 100vw;
+  background-color: #ffb400;
+  align-self: flex-end;
+  padding: 0 0 0 50px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  color: #f2f2f2;
+  font-family: 'Consolas', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 100%;
+  padding: 0 30px 0 30px;
+  cursor: pointer;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+nav > .item:first-child {
+  padding-left: 0;
+}
+
+.name-title {
+  font-family: 'Helvetica', sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #f3f3f3;
+}
+
+.hvr-bounce-in {
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transition-duration: 350ms;
+  transition-duration: 350ms
+
+  transition: color 350ms ease-in-out;
+}
+.hvr-bounce-in:hover, .hvr-bounce-in:focus, .hvr-bounce-in:active {
+  -webkit-transform: scale(1.4);
+  transform: scale(1.4);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  color: #2d4059;
+}
+
+.nav-active {
+  transform: scale(1.4);
+  -webkit-transform: scale(1.4);
+  color: #2d4059;
+}
+
+.content {
+  padding: 15px 50px;
+}
+
+
+.card-collection {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card-collection > .card {
+  width: 250px;
+  height: 150px;
+  background-color: #ffffff;
+
+  border-radius: 0 20px;
+
+  border-left: 6px solid #eb7878;
+  border-bottom: 6px solid #eb7878;
+
+  transition: border-
+
+  margin: 10px 10px 0 0;
+}
